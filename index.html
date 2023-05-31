@@ -1,0 +1,212 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/estilos.css">
+    <!-- mediaqueries -->
+    <link rel="stylesheet" href="./assets/mediaqueires.css">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="./assets/animaciones.css">
+    <title>Proyecto NFT</title>  
+    <!-- Comentario  contrl K (mas) C-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Logo de nucba Nft" class="logo">
+        <nav class="navbar">
+
+            <!-- agregar el label con la imagen del menu -->
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/menu.png" alt="menu">
+            </label>
+
+            <!-- agregamos el imput y lo linkeamos al label -->
+            <input type="checkbox" id="menu-toggle">
+
+            <!-- aca donde arranca el menu -->
+            <ul class="navbar-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#discover">Descubre</a></li>
+                <li><a href="#products">BTC</a></li>
+                <li><a href="https://www.youtube.com/@NUCBAok" target="_blank">Youtube</a></li>
+                <li><a href="https://www.nucba.com.ar/" target="_blank">Contactanos</a></li>
+            </ul>
+            <!-- agregamos input y label para el carrito -->
+        <label for="cart-toggle" class="cart-label">
+        <!-- <img src="./assets/carrito.png" alt="carrito de compras" class="cart-icon"> -->
+
+            <label for="cart-toggle" class="cart-label">
+                <i class='bx bx-cart'></i>
+            </label>
+
+    </label>
+    <input type="checkbox" id="cart-toggle">
+    <!-- agregamos el carrito -->
+    <div class="cart">
+        <h2>Tus NFTs</h2>
+
+        <div class="cart-item">
+            <img src="" alt="CARRITO DE NFT">
+        </div>
+        <div class="item-info">
+            <h3 class="item-title">Messi</h3>
+            <p class="item-bid">Current Bid</p>
+            <span class="item-price">4,6 ETH</span>
+        </div>
+
+        <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+        </div>
+
+
+    </div>
+    <div class="overlay"></div>
+
+
+
+    </nav>
+        
+    </header>
+
+    <main>
+        <!-- hero -->
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Descubre la nueva era de <span>Crypto</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cupiditate blanditiis reiciendis repellat odit veniam cumque et autem commodi aliquid quod soluta non, animi ad quaerat, <span>Nucba</span> quos adipisci minima?
+                </p>
+                <a href="#">Be Nucber</a>
+            </div> 
+
+            <div class="hero-card">
+                <img src="./assets/nft.jpg" alt="NFT">
+            
+            <div class="hero-card-info">
+
+                <div class="hero-card-top">
+                    <h3>The Greatest of all time</h3>
+                    <span>10</span>
+                </div>
+                <div class="hero-card-botton">
+                    <div class="hero-card-creator">
+                        <img src="./assets/messi.jpg" alt="Imagen de Carles Rexach">
+                    </div>
+                    <div class="creator-info">
+                        <p>Creador</p>
+                        <p>Carles Rexach</p>
+                    </div>
+                    <div class="hero-card-price">
+                        <p>Value</p>
+                        <span>9 ETH</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <!-- info -->
+    <section id="info">
+        <h2>Crea, Aprende Y Comparte los NFTs</h2>
+        <div class="info-cards-container">
+            <div class="info-card">
+                <img src="./assets/messi.jpg" alt="circulo" />
+                <h3>Configura tu Wallet</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi maiores reprehenderit ratione temporibus blanditiis omnis harum, cupiditate ea dicta. Exercitationem expedita vitae voluptatum, vero laborum autem debitis molestias consequatur harum.</p>
+            </div>
+            <div class="info-card">
+                <img src="./assets/messi.jpg" alt="circulo" />
+                <h3>Agrega tus NFTs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum delectus velit fuga alias magnam labore, asperiores obcaecati consectetur adipisci. Qui totam corrupti ad fugiat deserunt. Inventore enim consectetur dolore?</p>
+            </div>
+            <div class="info-card">
+                <img src="./assets/messi.jpg" alt="circulo" />
+                <h3>Coleccionalos</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio dolore voluptas quo consequuntur sint facilis voluptatibus laboriosam dolorum tempora blanditiis! Eius sequi aliquid amet, delectus nihil iste nobis corrupti architecto.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- discover -->
+    <section id="discover">
+        <div class="discover-info">
+            <h2>Descubre una nueva era de colecciones</h2>
+            <div class="discover-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla alias fugit delectus non blanditiis reiciendis consequuntur, deleniti maiores, dolores dignissimos deserunt nam ex, sunt explicabo. Est perferendis reiciendis et itaque.</p>
+                <a href="#">Empezar ahora</a>
+            </div>
+        </div>
+
+        <!-- discover cards -->
+        <div class="discover-cards">
+            <img src="./assets/nft.jpg" alt="NFT">
+            <img src="./assets/nft.jpg" alt="NFT">
+            <img src="./assets/nft.jpg" alt="NFT">
+        </div>
+    </section>
+    
+    <!-- Products -->
+    <section id="products">
+        <h2>Hot NFTs</h2>
+        <!-- categorias -->
+        <div class="categories">
+            <button class="category active">🎯Todas</button>
+            <button class="category">⚽Futbol</button>
+            <button class="category">🎯Música</button>
+            <button class="category">🎯Peliculas</button>
+            <button class="category">🎯Autos</button>
+            <button class="category">🎯Politicos</button>
+        </div>
+
+        <!-- Productos -->
+        <div class="products-container">
+            <!-- Productos 1 -->
+            <div class="product">
+                <img src="./assets/nft golden.jpg" alt="Golden NFT">
+                <div class="product-info">
+                    <!-- top -->
+                    <div class="product-top">
+                        <h3>Golden NFT</h3>
+                        <p>Current Bid</p>
+                    </div>
+                    <!-- mid -->
+                    <div class="product-mid">
+                        <div class="product-user">
+                            <img src="" alt="user">
+                            <p>@LeoMessiNFT</p>
+                        </div>
+                        <span>6.89 ETH</span>
+                    </div>
+                    <!-- bottom -->
+                    <div class="product-bot">
+                        <div class="offer-time">
+                            <img src="" alt="Fire">
+                            <p>05:12:07</p>
+                        </div>
+                        <button class="btn-add">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-load"> Ver Mas</button>
+    </section>
+    
+</main>
+
+
+    <footer>
+        <div>
+            <ul class="">
+                <li> <a href=""></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
